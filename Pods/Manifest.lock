@@ -1,0 +1,21 @@
+PODS:
+  - PeerKit (5.0.0)
+
+DEPENDENCIES:
+  - PeerKit (from `https://github.com/touyou/PeerKit.git`)
+
+EXTERNAL SOURCES:
+  PeerKit:
+    :git: https://github.com/touyou/PeerKit.git
+
+CHECKOUT OPTIONS:
+  PeerKit:
+    :commit: fe0eb94590185fc51c5dd10beadee46d9c4c31d7
+    :git: https://github.com/touyou/PeerKit.git
+
+SPEC CHECKSUMS:
+  PeerKit: c1df48bea4ce158499b7cc70b449fd40610536a6
+
+PODFILE CHECKSUM: 1f167493859107e0e39fac1cc3dacdfc58aba7c3
+
+COCOAPODS: 1.7.5
