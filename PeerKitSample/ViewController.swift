@@ -28,7 +28,12 @@ class ViewController: UIViewController {
                     return
             }
 
-            
+            switch status.status {
+            case .start:
+                break
+            case .end:
+                break
+            }
         }
     }
 
