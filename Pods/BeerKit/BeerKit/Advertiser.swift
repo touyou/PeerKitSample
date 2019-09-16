@@ -1,23 +1,19 @@
 //
 //  Advertiser.swift
-//  CardsAgainst
+//  BeerKit
 //
-//  Created by JP Simard on 11/3/14.
-//  Copyright (c) 2014 JP Simard. All rights reserved.
+//  Created by Kei Fujikawa on 2019/01/16.
+//  Copyright © 2019 kboy. All rights reserved.
 //
 
-import Foundation
 import MultipeerConnectivity
 
-class Advertiser: NSObject, MCNearbyServiceAdvertiserDelegate {
-
+class Advertiser: NSObject {
     let mcSession: MCSession
-
     init(mcSession: MCSession) {
         self.mcSession = mcSession
         super.init()
     }
-
     private var advertiser: MCNearbyServiceAdvertiser?
 
     func startAdvertising(serviceType: String, discoveryInfo: [String: String]? = nil) {
@@ -31,17 +27,15 @@ class Advertiser: NSObject, MCNearbyServiceAdvertiserDelegate {
         advertiser?.stopAdvertisingPeer()
     }
 
+    func restartAdvertising() {
+        advertiser?.startAdvertisingPeer()
+        advertiser?.delegate = self
+    }
+}
 
-//    @available(iOSApplicationExtension 7.0, *)
-//    public func advertiser(_ advertiser: MCNearbyServiceAdvertiser, didReceiveInvitationFromPeer peerID: MCPeerID, withContext context: Data?, invitationHandler: @escaping (Bool, MCSession?) -> Void) {
-//        <#code#>
-//    }
-
+extension Advertiser: MCNearbyServiceAdvertiserDelegate {
     func advertiser(_ advertiser: MCNearbyServiceAdvertiser, didReceiveInvitationFromPeer peerID: MCPeerID, withContext context: Data?, invitationHandler: @escaping (Bool, MCSession?) -> Void) {
-        let accept = mcSession.myPeerID.hashValue > peerID.hashValue
-        invitationHandler(accept, mcSession)
-        if accept {
-            stopAdvertising()
-        }
+        // https://developer.apple.com/library/content/qa/qa1869/_index.html
+        invitationHandler(true, mcSession)
     }
 }

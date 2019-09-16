@@ -1,0 +1,6 @@
+framework module BeerKit {
+  umbrella header "BeerKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

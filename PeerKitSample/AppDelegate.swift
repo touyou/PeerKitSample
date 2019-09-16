@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import BeerKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        // ここのPeerKitSampleを変えることで同じアプリ同士がつながるようにする
+        BeerKit.transceive(serviceType: "PeerKitSample")
         return true
     }
 

@@ -7,98 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BA4E5B829D7EFEECA824DFA1CF6B1B3 /* Pods-PeerKitSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE7A9A9609BCFE035034E4FC652B0102 /* Pods-PeerKitSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D3D8D68AC92798A27B51885AD591D3E /* Pods-PeerKitSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F90593D3F5A0DC37F673CECA0275BE /* Pods-PeerKitSample-dummy.m */; };
-		767FA69AEEA8D8BAFECA6F3E8C7F7A6B /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC71B0268194BE6B006CE2DFB49D4144 /* Session.swift */; };
-		817C0FDC8BCB916DBD410BD3ADD19453 /* Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DC7385E1D79DBC0355F239DAA4785 /* Browser.swift */; };
-		A229F4A7D66ADC6C74B287EA179DE06D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BC43463B7D3E8CC72900B5CF4226EF5F /* PeerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A68088C6EB1286438497C5188EDF71B9 /* PeerKit-dummy.m */; };
-		C65C01E7AF9677E788D224A01D4314A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C915DE505CB35C710BC5905ACDE613AF /* PeerKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C470EDBBCBA0BA4E86AF44B47F22A63 /* PeerKit.swift */; };
-		E1E7A5B20A5F4A21A878BF614A702462 /* Transceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A50191B2F75969891D1AE383A685C8D /* Transceiver.swift */; };
-		E1FE90D4FD614B48258A23AB2163A86A /* PeerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC06A359B09B3841BC74DEAABB8DE36 /* PeerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F82137F77EDB3109B814A5BE474FEBCC /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40642617672A970E385F6C00653BF5F9 /* Advertiser.swift */; };
+		1C678724EF3409458FDAE324C39C8F9E /* Pods-PeerKitSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F90593D3F5A0DC37F673CECA0275BE /* Pods-PeerKitSample-dummy.m */; };
+		291976CD0E41C2FC976213225DF9B3CF /* Pods-PeerKitSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE7A9A9609BCFE035034E4FC652B0102 /* Pods-PeerKitSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		388855D97839E0CF708FB5A2FBFF9AA7 /* BeerKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78896A82C53677CBB7F4FD6EB066393D /* BeerKit.swift */; };
+		59A6868CF50D07C3CD25E4592D7F8929 /* EventEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA800E942CBE425699CB33F6CBB5C49 /* EventEntity.swift */; };
+		64A956F7B52D88A893319D3B49CAFEDB /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B7B5476198EE28082506B68ECE38FA /* Advertiser.swift */; };
+		6A72076FC67670494642F39B5B21C51B /* BeerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACEDB1B82A87477D000B0678407C178E /* BeerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99A5E60C80817EAED281130B4CFC1E33 /* Transceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75092B02A409888501A4DFEC141F1A0 /* Transceiver.swift */; };
+		A9886497F32918E5ED262FAA5E2AD40E /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD00014F0DFF3172CF5FFAA1AAAB4B9E /* Session.swift */; };
+		C500D6C5E1333507C07554EED10C3548 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DACB9A3D1B7572D3A211FAB52A10B837 /* BeerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 426826ADE885E7F4FA19E284AB94A948 /* BeerKit-dummy.m */; };
+		E1260447367C395F37E4D4670C6B90E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F15ECFCA6862A59ECCF8EBB98530FA80 /* Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4351111A1E541D62E088402AEA5C43 /* Browser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3463A52C950FFE9B23B060DB26062009 /* PBXContainerItemProxy */ = {
+		9B2787A58E17882854AB6E14605505F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA3A4FE96FA4760E6EDF4C9839887AA8;
-			remoteInfo = PeerKit;
+			remoteGlobalIDString = 29690ADA37CE2DBA3DBBDAB6534FDF3A;
+			remoteInfo = BeerKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03B7B5476198EE28082506B68ECE38FA /* Advertiser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Advertiser.swift; path = BeerKit/Advertiser.swift; sourceTree = "<group>"; };
 		1530C2C0837BE0C5E17BCFE66190F961 /* Pods-PeerKitSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PeerKitSample.modulemap"; sourceTree = "<group>"; };
-		2A50191B2F75969891D1AE383A685C8D /* Transceiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transceiver.swift; path = PeerKit/Transceiver.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		40642617672A970E385F6C00653BF5F9 /* Advertiser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Advertiser.swift; path = PeerKit/Advertiser.swift; sourceTree = "<group>"; };
-		4ADC198F49064EE64A210139445ECC2A /* PeerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PeerKit.modulemap; sourceTree = "<group>"; };
+		372BB594D81375D5A9DDB238D9C87FF5 /* BeerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BeerKit.modulemap; sourceTree = "<group>"; };
+		4123937C5D2682E07FF5183F61739BAB /* BeerKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BeerKit-Info.plist"; sourceTree = "<group>"; };
+		426826ADE885E7F4FA19E284AB94A948 /* BeerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeerKit-dummy.m"; sourceTree = "<group>"; };
 		681F4D62FD6A3B55A668735132464E32 /* Pods-PeerKitSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeerKitSample.debug.xcconfig"; sourceTree = "<group>"; };
 		6D42DFF20DC0E3CD4BF283B2E70E9433 /* Pods-PeerKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeerKitSample.release.xcconfig"; sourceTree = "<group>"; };
 		6F16770F76E5A531B6D2A23B15188F96 /* Pods-PeerKitSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeerKitSample-Info.plist"; sourceTree = "<group>"; };
-		7AC06A359B09B3841BC74DEAABB8DE36 /* PeerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PeerKit-umbrella.h"; sourceTree = "<group>"; };
-		7C3496167C60B643D4C6D2996094DDE8 /* PeerKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PeerKit.xcconfig; sourceTree = "<group>"; };
-		8C470EDBBCBA0BA4E86AF44B47F22A63 /* PeerKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeerKit.swift; path = PeerKit/PeerKit.swift; sourceTree = "<group>"; };
-		8D47EF151F1351EC767349C38C511FAF /* PeerKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PeerKit-Info.plist"; sourceTree = "<group>"; };
+		77F9736435DF69E54F21FCB426792FAF /* BeerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeerKit-prefix.pch"; sourceTree = "<group>"; };
+		78896A82C53677CBB7F4FD6EB066393D /* BeerKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeerKit.swift; path = BeerKit/BeerKit.swift; sourceTree = "<group>"; };
+		8B4351111A1E541D62E088402AEA5C43 /* Browser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Browser.swift; path = BeerKit/Browser.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A68088C6EB1286438497C5188EDF71B9 /* PeerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PeerKit-dummy.m"; sourceTree = "<group>"; };
-		AC71B0268194BE6B006CE2DFB49D4144 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = PeerKit/Session.swift; sourceTree = "<group>"; };
+		A7DFBF7D313059CF18AC2B41FE08159C /* BeerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BeerKit.framework; path = BeerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEDB1B82A87477D000B0678407C178E /* BeerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeerKit-umbrella.h"; sourceTree = "<group>"; };
 		AE7A9A9609BCFE035034E4FC652B0102 /* Pods-PeerKitSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PeerKitSample-umbrella.h"; sourceTree = "<group>"; };
 		AEDC94BFCAE5306C0693AD6C00FF9AE9 /* Pods_PeerKitSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PeerKitSample.framework; path = "Pods-PeerKitSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AB6AB60F1B9F6605F9DBEA8F2A6E07 /* Pods-PeerKitSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PeerKitSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C50E2E0B55722EF5E5A4FB6A9C16B777 /* BeerKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeerKit.xcconfig; sourceTree = "<group>"; };
+		C75092B02A409888501A4DFEC141F1A0 /* Transceiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transceiver.swift; path = BeerKit/Transceiver.swift; sourceTree = "<group>"; };
+		CD00014F0DFF3172CF5FFAA1AAAB4B9E /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = BeerKit/Session.swift; sourceTree = "<group>"; };
 		D4F90593D3F5A0DC37F673CECA0275BE /* Pods-PeerKitSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PeerKitSample-dummy.m"; sourceTree = "<group>"; };
+		DAA800E942CBE425699CB33F6CBB5C49 /* EventEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventEntity.swift; path = BeerKit/EventEntity.swift; sourceTree = "<group>"; };
 		DB3D7D5BBC76B2364F5DA89762D7C31D /* Pods-PeerKitSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PeerKitSample-frameworks.sh"; sourceTree = "<group>"; };
 		E3BC26AF29FA6896319A356767F4C9F2 /* Pods-PeerKitSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeerKitSample-acknowledgements.plist"; sourceTree = "<group>"; };
-		E53303AE083A300EEA6E63345C160851 /* PeerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PeerKit.framework; path = PeerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF2DC7385E1D79DBC0355F239DAA4785 /* Browser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Browser.swift; path = PeerKit/Browser.swift; sourceTree = "<group>"; };
-		F7C5EFAB60AFB25C7B97186A9D528EA7 /* PeerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PeerKit-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		74F1BCE8B8990F721DBA41DA0F8A2AF2 /* Frameworks */ = {
+		4EC2B45E78AA57D541AB2D3EE747B168 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C65C01E7AF9677E788D224A01D4314A1 /* Foundation.framework in Frameworks */,
+				C500D6C5E1333507C07554EED10C3548 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		796110F047FCF95C1C6377BD34106736 /* Frameworks */ = {
+		861FB985277DFF40570239FF9ED5AFB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A229F4A7D66ADC6C74B287EA179DE06D /* Foundation.framework in Frameworks */,
+				E1260447367C395F37E4D4670C6B90E5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		189302C0BDDBA5B9BB737C01AB95121C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D959DD42DE56F2F23CC44F358E9DA106 /* PeerKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		19E4ABFF01BAC3CF526239A17CB84D56 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4ADC198F49064EE64A210139445ECC2A /* PeerKit.modulemap */,
-				7C3496167C60B643D4C6D2996094DDE8 /* PeerKit.xcconfig */,
-				A68088C6EB1286438497C5188EDF71B9 /* PeerKit-dummy.m */,
-				8D47EF151F1351EC767349C38C511FAF /* PeerKit-Info.plist */,
-				F7C5EFAB60AFB25C7B97186A9D528EA7 /* PeerKit-prefix.pch */,
-				7AC06A359B09B3841BC74DEAABB8DE36 /* PeerKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PeerKit";
-			sourceTree = "<group>";
-		};
 		6B2815511B6A1966667C6EC687EDA682 /* Pods-PeerKitSample */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +96,29 @@
 			path = "Target Support Files/Pods-PeerKitSample";
 			sourceTree = "<group>";
 		};
+		7620F589936F3EA94FD09E3F7F071A1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8330241653B1068592B8C31D13ACF412 /* BeerKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8330241653B1068592B8C31D13ACF412 /* BeerKit */ = {
+			isa = PBXGroup;
+			children = (
+				03B7B5476198EE28082506B68ECE38FA /* Advertiser.swift */,
+				78896A82C53677CBB7F4FD6EB066393D /* BeerKit.swift */,
+				8B4351111A1E541D62E088402AEA5C43 /* Browser.swift */,
+				DAA800E942CBE425699CB33F6CBB5C49 /* EventEntity.swift */,
+				CD00014F0DFF3172CF5FFAA1AAAB4B9E /* Session.swift */,
+				C75092B02A409888501A4DFEC141F1A0 /* Transceiver.swift */,
+				AC84CBF6BDDAA8117B671ED0ECDF7FC7 /* Support Files */,
+			);
+			name = BeerKit;
+			path = BeerKit;
+			sourceTree = "<group>";
+		};
 		91B565AFF319A54BFB2B74BAE83A263F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,13 +127,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A1E87CFC798B1C369BB6FFE485EB1C53 /* Products */ = {
+		AC84CBF6BDDAA8117B671ED0ECDF7FC7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E53303AE083A300EEA6E63345C160851 /* PeerKit.framework */,
-				AEDC94BFCAE5306C0693AD6C00FF9AE9 /* Pods_PeerKitSample.framework */,
+				372BB594D81375D5A9DDB238D9C87FF5 /* BeerKit.modulemap */,
+				C50E2E0B55722EF5E5A4FB6A9C16B777 /* BeerKit.xcconfig */,
+				426826ADE885E7F4FA19E284AB94A948 /* BeerKit-dummy.m */,
+				4123937C5D2682E07FF5183F61739BAB /* BeerKit-Info.plist */,
+				77F9736435DF69E54F21FCB426792FAF /* BeerKit-prefix.pch */,
+				ACEDB1B82A87477D000B0678407C178E /* BeerKit-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/BeerKit";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -141,13 +149,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C650EDFF6876CF2A156788F81732A0A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7DFBF7D313059CF18AC2B41FE08159C /* BeerKit.framework */,
+				AEDC94BFCAE5306C0693AD6C00FF9AE9 /* Pods_PeerKitSample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				189302C0BDDBA5B9BB737C01AB95121C /* Pods */,
-				A1E87CFC798B1C369BB6FFE485EB1C53 /* Products */,
+				7620F589936F3EA94FD09E3F7F071A1F /* Pods */,
+				C650EDFF6876CF2A156788F81732A0A3 /* Products */,
 				91B565AFF319A54BFB2B74BAE83A263F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -160,77 +177,63 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D959DD42DE56F2F23CC44F358E9DA106 /* PeerKit */ = {
-			isa = PBXGroup;
-			children = (
-				40642617672A970E385F6C00653BF5F9 /* Advertiser.swift */,
-				EF2DC7385E1D79DBC0355F239DAA4785 /* Browser.swift */,
-				8C470EDBBCBA0BA4E86AF44B47F22A63 /* PeerKit.swift */,
-				AC71B0268194BE6B006CE2DFB49D4144 /* Session.swift */,
-				2A50191B2F75969891D1AE383A685C8D /* Transceiver.swift */,
-				19E4ABFF01BAC3CF526239A17CB84D56 /* Support Files */,
-			);
-			name = PeerKit;
-			path = PeerKit;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E19F77D1E6ACEBE83046CAE765D341D8 /* Headers */ = {
+		92417D452A5FF5B19B2864401A0C44DC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BA4E5B829D7EFEECA824DFA1CF6B1B3 /* Pods-PeerKitSample-umbrella.h in Headers */,
+				291976CD0E41C2FC976213225DF9B3CF /* Pods-PeerKitSample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2960FF05170718D4D5C033EDCD0F999 /* Headers */ = {
+		CC84865C957B824E26671A5A018C4D41 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1FE90D4FD614B48258A23AB2163A86A /* PeerKit-umbrella.h in Headers */,
+				6A72076FC67670494642F39B5B21C51B /* BeerKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		86DF6F5A486F3E0A5DA0485B515C907D /* Pods-PeerKitSample */ = {
+		29690ADA37CE2DBA3DBBDAB6534FDF3A /* BeerKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5FCC3C7CA5AFCB60BCD0059E0BDFAFE /* Build configuration list for PBXNativeTarget "Pods-PeerKitSample" */;
+			buildConfigurationList = 9BA228DB11CC57EE4469569D84839D46 /* Build configuration list for PBXNativeTarget "BeerKit" */;
 			buildPhases = (
-				E19F77D1E6ACEBE83046CAE765D341D8 /* Headers */,
-				540A946F05636CA220C30A57057C3E92 /* Sources */,
-				74F1BCE8B8990F721DBA41DA0F8A2AF2 /* Frameworks */,
-				09722F36FB68010FDB4921DA0B64331F /* Resources */,
+				CC84865C957B824E26671A5A018C4D41 /* Headers */,
+				B5362157D53623BF7F83F6B8AF31C714 /* Sources */,
+				4EC2B45E78AA57D541AB2D3EE747B168 /* Frameworks */,
+				90EA98BCAEBF08DA4F5B085156440820 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E19949BA37479A7418443221835FDA1C /* PBXTargetDependency */,
+			);
+			name = BeerKit;
+			productName = BeerKit;
+			productReference = A7DFBF7D313059CF18AC2B41FE08159C /* BeerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86DF6F5A486F3E0A5DA0485B515C907D /* Pods-PeerKitSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578FDB026C9B6E00F7CE2BC9F5A3D5D5 /* Build configuration list for PBXNativeTarget "Pods-PeerKitSample" */;
+			buildPhases = (
+				92417D452A5FF5B19B2864401A0C44DC /* Headers */,
+				78A3EA65711CBA12C941D92A54B299EB /* Sources */,
+				861FB985277DFF40570239FF9ED5AFB0 /* Frameworks */,
+				CCBE46D992247789B8EE212524AC8C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AF760E2A9270CAA41DC9D72F223A718 /* PBXTargetDependency */,
 			);
 			name = "Pods-PeerKitSample";
 			productName = "Pods-PeerKitSample";
 			productReference = AEDC94BFCAE5306C0693AD6C00FF9AE9 /* Pods_PeerKitSample.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DA3A4FE96FA4760E6EDF4C9839887AA8 /* PeerKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 31B7661600A35E733B11BEDA25F71711 /* Build configuration list for PBXNativeTarget "PeerKit" */;
-			buildPhases = (
-				F2960FF05170718D4D5C033EDCD0F999 /* Headers */,
-				3575885C1055191244A3E7B240D24D82 /* Sources */,
-				796110F047FCF95C1C6377BD34106736 /* Frameworks */,
-				3CEB642B2E945032DEEA175F67A36064 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PeerKit;
-			productName = PeerKit;
-			productReference = E53303AE083A300EEA6E63345C160851 /* PeerKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -250,25 +253,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A1E87CFC798B1C369BB6FFE485EB1C53 /* Products */;
+			productRefGroup = C650EDFF6876CF2A156788F81732A0A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA3A4FE96FA4760E6EDF4C9839887AA8 /* PeerKit */,
+				29690ADA37CE2DBA3DBBDAB6534FDF3A /* BeerKit */,
 				86DF6F5A486F3E0A5DA0485B515C907D /* Pods-PeerKitSample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		09722F36FB68010FDB4921DA0B64331F /* Resources */ = {
+		90EA98BCAEBF08DA4F5B085156440820 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CEB642B2E945032DEEA175F67A36064 /* Resources */ = {
+		CCBE46D992247789B8EE212524AC8C56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,44 +281,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3575885C1055191244A3E7B240D24D82 /* Sources */ = {
+		78A3EA65711CBA12C941D92A54B299EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F82137F77EDB3109B814A5BE474FEBCC /* Advertiser.swift in Sources */,
-				817C0FDC8BCB916DBD410BD3ADD19453 /* Browser.swift in Sources */,
-				BC43463B7D3E8CC72900B5CF4226EF5F /* PeerKit-dummy.m in Sources */,
-				C915DE505CB35C710BC5905ACDE613AF /* PeerKit.swift in Sources */,
-				767FA69AEEA8D8BAFECA6F3E8C7F7A6B /* Session.swift in Sources */,
-				E1E7A5B20A5F4A21A878BF614A702462 /* Transceiver.swift in Sources */,
+				1C678724EF3409458FDAE324C39C8F9E /* Pods-PeerKitSample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		540A946F05636CA220C30A57057C3E92 /* Sources */ = {
+		B5362157D53623BF7F83F6B8AF31C714 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D3D8D68AC92798A27B51885AD591D3E /* Pods-PeerKitSample-dummy.m in Sources */,
+				64A956F7B52D88A893319D3B49CAFEDB /* Advertiser.swift in Sources */,
+				DACB9A3D1B7572D3A211FAB52A10B837 /* BeerKit-dummy.m in Sources */,
+				388855D97839E0CF708FB5A2FBFF9AA7 /* BeerKit.swift in Sources */,
+				F15ECFCA6862A59ECCF8EBB98530FA80 /* Browser.swift in Sources */,
+				59A6868CF50D07C3CD25E4592D7F8929 /* EventEntity.swift in Sources */,
+				A9886497F32918E5ED262FAA5E2AD40E /* Session.swift in Sources */,
+				99A5E60C80817EAED281130B4CFC1E33 /* Transceiver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E19949BA37479A7418443221835FDA1C /* PBXTargetDependency */ = {
+		1AF760E2A9270CAA41DC9D72F223A718 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PeerKit;
-			target = DA3A4FE96FA4760E6EDF4C9839887AA8 /* PeerKit */;
-			targetProxy = 3463A52C950FFE9B23B060DB26062009 /* PBXContainerItemProxy */;
+			name = BeerKit;
+			target = 29690ADA37CE2DBA3DBBDAB6534FDF3A /* BeerKit */;
+			targetProxy = 9B2787A58E17882854AB6E14605505F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09889724E51B8977EB6F9BBB7C8E7C2B /* Debug */ = {
+		38650AC269CD60B66A73F0509F3B3199 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 681F4D62FD6A3B55A668735132464E32 /* Pods-PeerKitSample.debug.xcconfig */;
+			baseConfigurationReference = C50E2E0B55722EF5E5A4FB6A9C16B777 /* BeerKit.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -326,138 +329,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PeerKitSample/Pods-PeerKitSample-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BeerKit/BeerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BeerKit/BeerKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PeerKitSample/Pods-PeerKitSample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/BeerKit/BeerKit.modulemap";
+				PRODUCT_MODULE_NAME = BeerKit;
+				PRODUCT_NAME = BeerKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3ED1A3BCE894B0DC575AF81928BCA14E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D42DFF20DC0E3CD4BF283B2E70E9433 /* Pods-PeerKitSample.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PeerKitSample/Pods-PeerKitSample-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PeerKitSample/Pods-PeerKitSample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		423126A6AB22D9DE9D040AB0AB6958D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C3496167C60B643D4C6D2996094DDE8 /* PeerKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PeerKit/PeerKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PeerKit/PeerKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PeerKit/PeerKit.modulemap";
-				PRODUCT_MODULE_NAME = PeerKit;
-				PRODUCT_NAME = PeerKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4C3DF1578CCD89672545DB85098017D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C3496167C60B643D4C6D2996094DDE8 /* PeerKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PeerKit/PeerKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PeerKit/PeerKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PeerKit/PeerKit.modulemap";
-				PRODUCT_MODULE_NAME = PeerKit;
-				PRODUCT_NAME = PeerKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -523,6 +416,44 @@
 			};
 			name = Debug;
 		};
+		878D2EF17AF64E9F062352231E2DD2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 681F4D62FD6A3B55A668735132464E32 /* Pods-PeerKitSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PeerKitSample/Pods-PeerKitSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PeerKitSample/Pods-PeerKitSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -583,18 +514,84 @@
 			};
 			name = Release;
 		};
+		B64D8D6F86B6C7A413E43649B45A1C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C50E2E0B55722EF5E5A4FB6A9C16B777 /* BeerKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BeerKit/BeerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BeerKit/BeerKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BeerKit/BeerKit.modulemap";
+				PRODUCT_MODULE_NAME = BeerKit;
+				PRODUCT_NAME = BeerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9DE6E5BAFB9F1DFC7C9665F19E8DB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D42DFF20DC0E3CD4BF283B2E70E9433 /* Pods-PeerKitSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PeerKitSample/Pods-PeerKitSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PeerKitSample/Pods-PeerKitSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31B7661600A35E733B11BEDA25F71711 /* Build configuration list for PBXNativeTarget "PeerKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4C3DF1578CCD89672545DB85098017D7 /* Debug */,
-				423126A6AB22D9DE9D040AB0AB6958D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -604,11 +601,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5FCC3C7CA5AFCB60BCD0059E0BDFAFE /* Build configuration list for PBXNativeTarget "Pods-PeerKitSample" */ = {
+		578FDB026C9B6E00F7CE2BC9F5A3D5D5 /* Build configuration list for PBXNativeTarget "Pods-PeerKitSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09889724E51B8977EB6F9BBB7C8E7C2B /* Debug */,
-				3ED1A3BCE894B0DC575AF81928BCA14E /* Release */,
+				878D2EF17AF64E9F062352231E2DD2C8 /* Debug */,
+				D9DE6E5BAFB9F1DFC7C9665F19E8DB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA228DB11CC57EE4469569D84839D46 /* Build configuration list for PBXNativeTarget "BeerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64D8D6F86B6C7A413E43649B45A1C5D /* Debug */,
+				38650AC269CD60B66A73F0509F3B3199 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

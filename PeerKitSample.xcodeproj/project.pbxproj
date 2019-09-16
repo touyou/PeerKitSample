@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		4621B58E232F1AD900B2F948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4621B58C232F1AD900B2F948 /* Main.storyboard */; };
 		4621B590232F1ADB00B2F948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4621B58F232F1ADB00B2F948 /* Assets.xcassets */; };
 		4621B593232F1ADB00B2F948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4621B591232F1ADB00B2F948 /* LaunchScreen.storyboard */; };
+		4621B59B232F1D1500B2F948 /* StatusEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4621B59A232F1D1500B2F948 /* StatusEntity.swift */; };
 		83A919C21D5B11AC537ED61A /* Pods_PeerKitSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F96F1FF30666B996731FCFB /* Pods_PeerKitSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		4621B58F232F1ADB00B2F948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4621B592232F1ADB00B2F948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4621B594232F1ADB00B2F948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4621B59A232F1D1500B2F948 /* StatusEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusEntity.swift; sourceTree = "<group>"; };
 		4F96F1FF30666B996731FCFB /* Pods_PeerKitSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeerKitSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DA530A6DC535540ACEF2B0 /* Pods-PeerKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeerKitSample.release.xcconfig"; path = "Target Support Files/Pods-PeerKitSample/Pods-PeerKitSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +69,7 @@
 				4621B58F232F1ADB00B2F948 /* Assets.xcassets */,
 				4621B591232F1ADB00B2F948 /* LaunchScreen.storyboard */,
 				4621B594232F1ADB00B2F948 /* Info.plist */,
+				4621B59A232F1D1500B2F948 /* StatusEntity.swift */,
 			);
 			path = PeerKitSample;
 			sourceTree = "<group>";
@@ -77,7 +80,6 @@
 				284965BABA97E2BA915B575D /* Pods-PeerKitSample.debug.xcconfig */,
 				D2DA530A6DC535540ACEF2B0 /* Pods-PeerKitSample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -204,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4621B59B232F1D1500B2F948 /* StatusEntity.swift in Sources */,
 				4621B58B232F1AD900B2F948 /* ViewController.swift in Sources */,
 				4621B589232F1AD900B2F948 /* AppDelegate.swift in Sources */,
 			);

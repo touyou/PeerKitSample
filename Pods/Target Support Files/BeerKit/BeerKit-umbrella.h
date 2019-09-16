@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double PeerKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char PeerKitVersionString[];
+FOUNDATION_EXPORT double BeerKitVersionNumber;
+FOUNDATION_EXPORT const unsigned char BeerKitVersionString[];
 

@@ -6,6 +6,7 @@ target 'PeerKitSample' do
   use_frameworks!
 
   # Pods for PeerKitSample
-  pod 'PeerKit', :git => 'https://github.com/touyou/PeerKit.git'
+  #pod 'PeerKit', :git => 'https://github.com/touyou/PeerKit.git'
+  pod 'BeerKit'
 
 end

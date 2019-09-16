@@ -1,21 +1,16 @@
 PODS:
-  - PeerKit (5.0.0)
+  - BeerKit (1.0.2)
 
 DEPENDENCIES:
-  - PeerKit (from `https://github.com/touyou/PeerKit.git`)
+  - BeerKit
 
-EXTERNAL SOURCES:
-  PeerKit:
-    :git: https://github.com/touyou/PeerKit.git
-
-CHECKOUT OPTIONS:
-  PeerKit:
-    :commit: fe0eb94590185fc51c5dd10beadee46d9c4c31d7
-    :git: https://github.com/touyou/PeerKit.git
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BeerKit
 
 SPEC CHECKSUMS:
-  PeerKit: c1df48bea4ce158499b7cc70b449fd40610536a6
+  BeerKit: d6d139620f0ba7a558f014758ebea54d27b06be7
 
-PODFILE CHECKSUM: 1f167493859107e0e39fac1cc3dacdfc58aba7c3
+PODFILE CHECKSUM: 48c2234503fa7a47875096632a55ce3fc3e9ee5e
 
 COCOAPODS: 1.7.5
